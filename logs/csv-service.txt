@@ -1,0 +1,178 @@
+14/Jan/2018 21:31:58,853- DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14/Jan/2018 21:31:58,878- DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@165b2f7f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5536379e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@277f7dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c8bca63, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2364305a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@470a696f]
+14/Jan/2018 21:31:59,041- GenericApplicationContext: Refreshing org.springframework.context.support.GenericApplicationContext@18a3962d: startup date [Sun Jan 14 21:31:59 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:00,387- DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14/Jan/2018 21:32:00,406- DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@27be17c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c413ffc, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7d21852b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6cd98a05, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b8ec001, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e95b653]
+14/Jan/2018 21:32:00,513- GenericApplicationContext: Refreshing org.springframework.context.support.GenericApplicationContext@75babb67: startup date [Sun Jan 14 21:32:00 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:01,485- DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14/Jan/2018 21:32:01,500- DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d9d2119, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a4464c5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7ae590f6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ab63838, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e974b9e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@370c7cc5]
+14/Jan/2018 21:32:01,606- GenericApplicationContext: Refreshing org.springframework.context.support.GenericApplicationContext@66020d69: startup date [Sun Jan 14 21:32:01 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:01,994- GenericApplicationContext: Closing org.springframework.context.support.GenericApplicationContext@75babb67: startup date [Sun Jan 14 21:32:00 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:01,994- GenericApplicationContext: Closing org.springframework.context.support.GenericApplicationContext@18a3962d: startup date [Sun Jan 14 21:31:59 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:01,995- GenericApplicationContext: Closing org.springframework.context.support.GenericApplicationContext@66020d69: startup date [Sun Jan 14 21:32:01 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:26,268- Starter: Starting Starter on L9973.local with PID 22267 (/Users/A-7451/Documents/EWSAIR/csv-services/target/classes started by A-7451 in /Users/A-7451/Documents/EWSAIR/csv-services)
+14/Jan/2018 21:32:26,269- Starter: The following profiles are active: dev
+14/Jan/2018 21:32:26,315- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d97a632: startup date [Sun Jan 14 21:32:26 IST 2018]; root of context hierarchy
+14/Jan/2018 21:32:26,593- Version: HV000001: Hibernate Validator 5.2.4.Final
+14/Jan/2018 21:32:27,615- PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$138473a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14/Jan/2018 21:32:28,017- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
+14/Jan/2018 21:32:28,031- StandardService: Starting service Tomcat
+14/Jan/2018 21:32:28,033- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.0.36
+14/Jan/2018 21:32:28,282- TldScanner: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14/Jan/2018 21:32:28,285- [/]: Initializing Spring embedded WebApplicationContext
+14/Jan/2018 21:32:28,661- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+14/Jan/2018 21:32:28,664- FilterRegistrationBean: Mapping filter: 'metricFilter' to: [/*]
+14/Jan/2018 21:32:28,664- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+14/Jan/2018 21:32:28,664- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14/Jan/2018 21:32:28,664- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14/Jan/2018 21:32:28,664- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+14/Jan/2018 21:32:28,665- FilterRegistrationBean: Mapping filter: 'webRequestLoggingFilter' to: [/*]
+14/Jan/2018 21:32:28,665- FilterRegistrationBean: Mapping filter: 'applicationContextIdFilter' to: [/*]
+14/Jan/2018 21:32:28,909- LocalContainerEntityManagerFactoryBean: Building JPA container EntityManagerFactory for persistence unit 'default'
+14/Jan/2018 21:32:28,918- LogHelper: HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14/Jan/2018 21:32:28,977- Version: HHH000412: Hibernate Core {4.3.11.Final}
+14/Jan/2018 21:32:28,978- Environment: HHH000206: hibernate.properties not found
+14/Jan/2018 21:32:28,979- Environment: HHH000021: Bytecode provider name : javassist
+14/Jan/2018 21:32:29,207- Version: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+14/Jan/2018 21:33:01,245- Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14/Jan/2018 21:33:01,333- ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+14/Jan/2018 21:33:01,467- PojoInstantiator: HHH000182: No default (no-argument) constructor for class: starter.dto.CsvInvalidData (class must be instantiated by Interceptor)
+14/Jan/2018 21:33:01,531- SchemaUpdate: HHH000228: Running hbm2ddl schema update
+14/Jan/2018 21:33:01,532- SchemaUpdate: HHH000102: Fetching database metadata
+14/Jan/2018 21:33:01,533- SchemaUpdate: HHH000396: Updating schema
+14/Jan/2018 21:33:03,588- TableMetadata: HHH000261: Table found: pointsbank.csv_currency_exchange_count
+14/Jan/2018 21:33:03,588- TableMetadata: HHH000037: Columns: [csv_currency, csv_count, id]
+14/Jan/2018 21:33:03,588- TableMetadata: HHH000108: Foreign keys: []
+14/Jan/2018 21:33:03,588- TableMetadata: HHH000126: Indexes: [primary]
+14/Jan/2018 21:33:05,628- TableMetadata: HHH000261: Table found: pointsbank.csv_invalid_data
+14/Jan/2018 21:33:05,628- TableMetadata: HHH000037: Columns: [csv_order_amount, csv_order_currency, csv_ordering_currency, csv_order_filename, csv_order_id, id, csv_order_timestamp]
+14/Jan/2018 21:33:05,628- TableMetadata: HHH000108: Foreign keys: []
+14/Jan/2018 21:33:05,628- TableMetadata: HHH000126: Indexes: [primary]
+14/Jan/2018 21:33:07,567- TableMetadata: HHH000261: Table found: pointsbank.csv_valid_data
+14/Jan/2018 21:33:07,567- TableMetadata: HHH000037: Columns: [csv_order_amount, csv_order_currency, csv_ordering_currency, csv_order_filename, csv_order_id, id, csv_order_timestamp]
+14/Jan/2018 21:33:07,567- TableMetadata: HHH000108: Foreign keys: []
+14/Jan/2018 21:33:07,567- TableMetadata: HHH000126: Indexes: [primary]
+14/Jan/2018 21:33:07,567- SchemaUpdate: HHH000232: Schema update complete
+14/Jan/2018 21:33:08,793- EndpointHandlerMapping: Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,794- EndpointHandlerMapping: Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,794- EndpointHandlerMapping: Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,796- EndpointHandlerMapping: Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+14/Jan/2018 21:33:08,797- EndpointHandlerMapping: Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,797- EndpointHandlerMapping: Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,798- EndpointHandlerMapping: Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+14/Jan/2018 21:33:08,798- EndpointHandlerMapping: Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,799- EndpointHandlerMapping: Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+14/Jan/2018 21:33:08,799- EndpointHandlerMapping: Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,800- EndpointHandlerMapping: Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:08,800- EndpointHandlerMapping: Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:33:09,021- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+14/Jan/2018 21:33:09,033- EndpointMBeanExporter: Registering beans for JMX exposure on startup
+14/Jan/2018 21:33:09,037- DefaultLifecycleProcessor: Starting beans in phase 0
+14/Jan/2018 21:33:09,039- EndpointMBeanExporter: Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+14/Jan/2018 21:33:09,063- EndpointMBeanExporter: Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+14/Jan/2018 21:33:09,068- EndpointMBeanExporter: Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+14/Jan/2018 21:33:09,071- EndpointMBeanExporter: Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+14/Jan/2018 21:33:09,075- EndpointMBeanExporter: Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+14/Jan/2018 21:33:09,080- EndpointMBeanExporter: Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+14/Jan/2018 21:33:09,084- EndpointMBeanExporter: Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+14/Jan/2018 21:33:09,087- EndpointMBeanExporter: Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+14/Jan/2018 21:33:09,092- EndpointMBeanExporter: Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+14/Jan/2018 21:33:09,094- EndpointMBeanExporter: Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+14/Jan/2018 21:33:09,125- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+14/Jan/2018 21:33:09,131- Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+14/Jan/2018 21:33:09,146- NioSelectorPool: Using a shared selector for servlet write/read
+14/Jan/2018 21:33:09,172- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
+14/Jan/2018 21:33:09,177- Starter: Started Starter in 43.189 seconds (JVM running for 43.785)
+14/Jan/2018 21:33:23,918- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+14/Jan/2018 21:49:09,867- AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d97a632: startup date [Sun Jan 14 21:32:26 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:24,967- DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14/Jan/2018 21:49:24,990- DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@165b2f7f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5536379e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@277f7dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c8bca63, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2364305a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@470a696f]
+14/Jan/2018 21:49:25,155- GenericApplicationContext: Refreshing org.springframework.context.support.GenericApplicationContext@18a3962d: startup date [Sun Jan 14 21:49:25 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:26,374- DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14/Jan/2018 21:49:26,391- DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@27be17c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c413ffc, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7d21852b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6cd98a05, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b8ec001, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e95b653]
+14/Jan/2018 21:49:26,485- GenericApplicationContext: Refreshing org.springframework.context.support.GenericApplicationContext@75babb67: startup date [Sun Jan 14 21:49:26 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:27,433- DefaultTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14/Jan/2018 21:49:27,448- DefaultTestContextBootstrapper: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d9d2119, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a4464c5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7ae590f6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ab63838, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e974b9e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@370c7cc5]
+14/Jan/2018 21:49:27,552- GenericApplicationContext: Refreshing org.springframework.context.support.GenericApplicationContext@66020d69: startup date [Sun Jan 14 21:49:27 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:27,921- GenericApplicationContext: Closing org.springframework.context.support.GenericApplicationContext@18a3962d: startup date [Sun Jan 14 21:49:25 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:27,921- GenericApplicationContext: Closing org.springframework.context.support.GenericApplicationContext@75babb67: startup date [Sun Jan 14 21:49:26 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:27,922- GenericApplicationContext: Closing org.springframework.context.support.GenericApplicationContext@66020d69: startup date [Sun Jan 14 21:49:27 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:50,509- Starter: Starting Starter on L9973.local with PID 23049 (/Users/A-7451/Documents/EWSAIR/csv-services/target/classes started by A-7451 in /Users/A-7451/Documents/EWSAIR/csv-services)
+14/Jan/2018 21:49:50,510- Starter: The following profiles are active: dev
+14/Jan/2018 21:49:50,560- AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d97a632: startup date [Sun Jan 14 21:49:50 IST 2018]; root of context hierarchy
+14/Jan/2018 21:49:50,841- Version: HV000001: Hibernate Validator 5.2.4.Final
+14/Jan/2018 21:49:52,143- PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89a98379] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14/Jan/2018 21:49:52,592- TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
+14/Jan/2018 21:49:52,606- StandardService: Starting service Tomcat
+14/Jan/2018 21:49:52,607- StandardEngine: Starting Servlet Engine: Apache Tomcat/8.0.36
+14/Jan/2018 21:49:52,892- TldScanner: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14/Jan/2018 21:49:52,896- [/]: Initializing Spring embedded WebApplicationContext
+14/Jan/2018 21:49:53,398- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+14/Jan/2018 21:49:53,401- FilterRegistrationBean: Mapping filter: 'metricFilter' to: [/*]
+14/Jan/2018 21:49:53,402- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+14/Jan/2018 21:49:53,402- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14/Jan/2018 21:49:53,402- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14/Jan/2018 21:49:53,402- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+14/Jan/2018 21:49:53,402- FilterRegistrationBean: Mapping filter: 'webRequestLoggingFilter' to: [/*]
+14/Jan/2018 21:49:53,402- FilterRegistrationBean: Mapping filter: 'applicationContextIdFilter' to: [/*]
+14/Jan/2018 21:49:53,591- LocalContainerEntityManagerFactoryBean: Building JPA container EntityManagerFactory for persistence unit 'default'
+14/Jan/2018 21:49:53,599- LogHelper: HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14/Jan/2018 21:49:53,659- Version: HHH000412: Hibernate Core {4.3.11.Final}
+14/Jan/2018 21:49:53,661- Environment: HHH000206: hibernate.properties not found
+14/Jan/2018 21:49:53,662- Environment: HHH000021: Bytecode provider name : javassist
+14/Jan/2018 21:49:53,908- Version: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+14/Jan/2018 21:50:29,361- Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14/Jan/2018 21:50:29,446- ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+14/Jan/2018 21:50:29,587- PojoInstantiator: HHH000182: No default (no-argument) constructor for class: starter.dto.CsvInvalidData (class must be instantiated by Interceptor)
+14/Jan/2018 21:50:29,651- SchemaUpdate: HHH000228: Running hbm2ddl schema update
+14/Jan/2018 21:50:29,652- SchemaUpdate: HHH000102: Fetching database metadata
+14/Jan/2018 21:50:29,656- SchemaUpdate: HHH000396: Updating schema
+14/Jan/2018 21:50:31,718- TableMetadata: HHH000261: Table found: pointsbank.csv_currency_exchange_count
+14/Jan/2018 21:50:31,718- TableMetadata: HHH000037: Columns: [csv_currency, csv_count, id]
+14/Jan/2018 21:50:31,718- TableMetadata: HHH000108: Foreign keys: []
+14/Jan/2018 21:50:31,718- TableMetadata: HHH000126: Indexes: [primary]
+14/Jan/2018 21:50:33,901- TableMetadata: HHH000261: Table found: pointsbank.csv_invalid_data
+14/Jan/2018 21:50:33,902- TableMetadata: HHH000037: Columns: [csv_order_amount, csv_order_currency, csv_ordering_currency, csv_order_filename, csv_order_id, id, csv_order_timestamp]
+14/Jan/2018 21:50:33,902- TableMetadata: HHH000108: Foreign keys: []
+14/Jan/2018 21:50:33,902- TableMetadata: HHH000126: Indexes: [primary]
+14/Jan/2018 21:50:35,962- TableMetadata: HHH000261: Table found: pointsbank.csv_valid_data
+14/Jan/2018 21:50:35,962- TableMetadata: HHH000037: Columns: [csv_order_amount, csv_order_currency, csv_ordering_currency, csv_order_filename, csv_order_id, id, csv_order_timestamp]
+14/Jan/2018 21:50:35,962- TableMetadata: HHH000108: Foreign keys: []
+14/Jan/2018 21:50:35,962- TableMetadata: HHH000126: Indexes: [primary]
+14/Jan/2018 21:50:35,963- SchemaUpdate: HHH000232: Schema update complete
+14/Jan/2018 21:50:37,238- EndpointHandlerMapping: Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,239- EndpointHandlerMapping: Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+14/Jan/2018 21:50:37,240- EndpointHandlerMapping: Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,240- EndpointHandlerMapping: Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,243- EndpointHandlerMapping: Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+14/Jan/2018 21:50:37,243- EndpointHandlerMapping: Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,244- EndpointHandlerMapping: Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+14/Jan/2018 21:50:37,244- EndpointHandlerMapping: Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,245- EndpointHandlerMapping: Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,246- EndpointHandlerMapping: Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,246- EndpointHandlerMapping: Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,247- EndpointHandlerMapping: Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+14/Jan/2018 21:50:37,499- AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+14/Jan/2018 21:50:37,513- EndpointMBeanExporter: Registering beans for JMX exposure on startup
+14/Jan/2018 21:50:37,518- DefaultLifecycleProcessor: Starting beans in phase 0
+14/Jan/2018 21:50:37,521- EndpointMBeanExporter: Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+14/Jan/2018 21:50:37,549- EndpointMBeanExporter: Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+14/Jan/2018 21:50:37,553- EndpointMBeanExporter: Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+14/Jan/2018 21:50:37,558- EndpointMBeanExporter: Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+14/Jan/2018 21:50:37,562- EndpointMBeanExporter: Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+14/Jan/2018 21:50:37,566- EndpointMBeanExporter: Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+14/Jan/2018 21:50:37,570- EndpointMBeanExporter: Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+14/Jan/2018 21:50:37,574- EndpointMBeanExporter: Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+14/Jan/2018 21:50:37,582- EndpointMBeanExporter: Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+14/Jan/2018 21:50:37,585- EndpointMBeanExporter: Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+14/Jan/2018 21:50:37,640- Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+14/Jan/2018 21:50:37,647- Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+14/Jan/2018 21:50:37,666- NioSelectorPool: Using a shared selector for servlet write/read
+14/Jan/2018 21:50:37,700- TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
+14/Jan/2018 21:50:37,708- Starter: Started Starter in 47.482 seconds (JVM running for 48.106)
+14/Jan/2018 21:52:18,571- [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+14/Jan/2018 22:00:28,360- AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d97a632: startup date [Sun Jan 14 21:49:50 IST 2018]; root of context hierarchy

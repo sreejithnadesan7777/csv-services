@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+    <Properties>
+        <Property name="path">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console-Appender" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    [%-5level] - %msg%n
+                </pattern>>
+            </PatternLayout>
+        </Console>
+        <RollingFile name="Appender" fileName="${path}/csv-service.txt"
+                     filePattern="${path}/csv-service-%d{yyyy-MM-dd}-%i.log" >
+            <PatternLayout>
+                <pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}- %c{1}: %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1000KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="4"/>
+        </RollingFile>
+        <RollingFile name="RollingFile" fileName="${path}/csv-service-event.txt"
+                     filePattern="${path}/csv-service-event-%d{yyyy-MM-dd}-%i.log" >
+            <PatternLayout>
+                <pattern>%m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1000KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="4"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.springframework.web" level="warn" additivity="false">
+            <!--<AppenderRef ref="SpringBoot-Appender"/>-->
+            <AppenderRef ref="Console-Appender"/>
+        </Logger>
+        <Logger name="csv.logger" level="info" additivity="false">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console-Appender"/>
+            <AppenderRef ref="Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>

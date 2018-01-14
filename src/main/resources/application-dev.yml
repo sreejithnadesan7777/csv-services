@@ -1,0 +1,13 @@
+monitoringAgent:
+  statsd:
+    hostname: "10.0.16.40"
+
+spring:
+   jpa:
+       hibernate:
+           ddl-auto: update
+
+   datasource:
+        url: jdbc:mysql://localhost:3306/pointsbank
+        username: springboot
+        password: eXpaWsletMeIntoThisDb2016
